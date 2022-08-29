@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dela+Gothic+One&family=Montserrat:wght@400;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600;700&family=Oswald:wght@200;400;700&family=Poppins:wght@100;200;300;700&family=Roboto+Slab:wght@300;700;900&family=Roboto:wght@400;500&family=Teko&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: linear-gradient(to right bottom ,#fff,#f0fff0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logo-section h3{
+    padding-top: 28px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo-section img{
+    height: 100px;
+    padding: 0;
+}
+
+.nav-items ul{
+    margin-top: 28px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.nav-item  a {
+    background: linear-gradient(to right bottom ,#f0fff0,#fff);;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.nav-item a:hover{
+    color: #5e17eb;
+}
+.header{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.H-left-section{
+    position: relative;
+    width: 50vw;
+}
+.H-left-section img{
+
+}
+
+#half-torus{
+
+    position: absolute;
+    width: 200px;
+    top: -40px;
+}
+#L-half-torus{
+    position: absolute;
+    width: 200px;
+    top: 80%;
+    left: 150%;
+
+}
+#torus{
+    position: absolute;
+    width: 450px;
+    left: 30%;
+}
+#blue-disc{
+    position: absolute;
+    width: 400px;
+    top: 30%;
+}
+
+.H-right-section{
+    width: 50vw;
+}
+.H-right-section h1{
+    font-size: 110.7px;
+    color: #febc2a;
+    margin-top: 20%;
+    font-weight: 800;
+}
+.H-right-section h3{
+    font-size: 35px;
+    width: 60%;
+    position: relative;
+}
+#mac-img{
+    position: absolute;
+    width: 60px;
+    margin-top: 0px;
+}
+.H-right-section h4 a{
+    color: #000;
+    font-weight: 100;
+}
+
+.H-right-section h4 a:hover{
+    color: #5e17eb;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: ;
+}
+
+
+.H-right-section h4{
+    margin-top: 7%;
+    font-size: 25px;
+}
+
+.about-me{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 100px;
+    margin-top: 100px;
+}
+
+.A-left-section{
+    width: 40vw;
+}
+.A-left-section h3{
+    font-size: 30px;
+}
+.A-left-section p{
+    font-size: 19px;
+    margin-top: 10%;
+    line-height: 1.5;
+}
+
+.A-right-section{
+    width: 40vw;
+    margin-left: 30%;
+}
+.A-card{
+    height: 30vh;
+
+}
+.A-card h3{
+    font-size: 30px;
+}
+.A-card ul li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+
