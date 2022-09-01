@@ -141,33 +141,13 @@ nav{
 }
 
 .A-left-section{
-    width: 40vw;
+    width:100%;
 }
 .A-left-section h3{
     font-size: 30px;
 }
 .A-left-section p{
-    font-size: 19px;
-    margin-top: 10%;
+    font-size: 1.2rem;
     line-height: 1.5;
-}
-
-.A-right-section{
-    width: 40vw;
-    margin-left: 30%;
-}
-.A-card{
-    height: 30vh;
-
-}
-.A-card h3{
-    font-size: 30px;
-}
-.A-card ul li{
-    margin-top: 20px;
-    font-size: 20px;
-}
-ul{
-    list-style: none;
 }
 
