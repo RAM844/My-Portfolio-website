@@ -5,8 +5,11 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    scroll-behavior: smooth;
+    
     transition: all 300ms;
+}
+html{
+    scroll-behavior: smooth;
 }
 /* scroll bar style */
 /* width */
@@ -25,7 +28,6 @@
 body{
     background: linear-gradient(to right bottom ,#fff,#f0fff0);
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
 }
 
 nav{
@@ -57,7 +59,7 @@ nav{
     justify-content: flex-start;
 }
 .nav-item  a {
-    background: linear-gradient(to right bottom ,#f0fff0,#fff);;
+    background: linear-gradient(to  bottom ,#f0fff0,#fff);;
     text-decoration: none;
     color: #000;
     font-weight: 500;
@@ -127,13 +129,14 @@ nav{
 .H-right-section h4 a{
     transition: 300ms step-start all;
     color: #000;
-    font-weight: 100;
+    font-weight: 600;
+    text-decoration: none;
+}
+.H-right-section h4 a:hover{
+    text-shadow: 0px 0px 1px #343434;
 }
 
-.H-right-section h4 a:hover{
-    color: #5e17eb;
-    font-weight: 500;
-}
+
 
 
 .H-right-section h4{
@@ -162,26 +165,31 @@ nav{
     line-height: 1.5;
 }
 .skills{
-    margin: 20px 100px;mobile;
+    height: 100%;
+    margin: 20px 100px;
+    /* mobile */
     margin-top: 30px;
 }
 .skills h3{
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .skill{
+    cursor:help;
+    display: inline-block;
     text-decoration: none;
     color: #5e17eb;
     font-weight: 600;
     margin-right: 20px;
-    margin: 15px ;
     padding: 8px 15px;
     border: #5e17eb solid 1px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .project{
-    margin: 20px 100px;mobile;
+    margin: 20px 100px;
+    /* TODO:mobile */
     margin-top: 90px;
 }
 .project h3{
@@ -210,7 +218,7 @@ nav{
     padding: 10px;
 }
 .card:hover{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 9.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 11.6px;
 
 }
 .card h3{
@@ -235,20 +243,94 @@ nav{
     justify-content: space-around;
     width: 100%;
     font-size: 17px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 .links a{
     text-decoration: none;
-    padding: 5px 16px;
+    padding: 5px 20px;
     vertical-align: middle;
-    border: 1px solid;
+    border: 1px solid #4b90f4;
     border-radius: 6px;
-    color: #24292e;
-    background-color: transparent;
-    border-color: #1b1f2326;
+    color: #fff;
+    background-color: #4b90f4;
+    box-shadow: 0px 0px 10px #4b90f4 ;
 }
 .links a:hover {
-    background-color: #343434;
+    box-shadow: 0px 0px 13px #4b90f4;
+    transition-duration: 300ms;
+}
+.all-projects{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.all-projects button{
+    background-color: none;
+    padding: 10px 20px;
+    background-color: #febc2a;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #febc2a;
+}
+.all-projects button:hover{
+    box-shadow: 0px 0px 15px #febc2a;
+}
+.all-projects button a{
+    text-decoration: none;
+    font-size: 20px;
     color: #fff;
-    transition-duration: 0.1s;
+    
+}
+
+.contact{
+    background-color: #f3fff3;
+    margin-top: 100px;
+    /* border: #000 solid 2px; */
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    overflow:visible;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    /* margin-left: 100px;
+    height: 100px; */
+}
+.contact h1 {
+    font-size: 44px;
+    font-weight: 700px;
+}
+.contact p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-weight: 400px;
+    line-height: 2;
+    color: #343434;
+    font-size: 22px;
+}
+.social-links{
+    background-color: #f3fff3;
+    height: 100%;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.social-link {
+    color: #fff;
+    width: 100%;
+}
+.social-link button a {
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+}
+.social-link button{
+    padding: 5px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #4b90f4;
+    box-shadow: 0px 0px 10px #4b90f4 ;
 }
